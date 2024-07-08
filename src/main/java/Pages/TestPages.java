@@ -32,7 +32,7 @@ public class TestPages {
     public void EnterLoginCredentials () throws InterruptedException {
         driver.findElement(emailAddressLogin).sendKeys("bshrr92@gmail.com"); // Find email address field and enter email
         Thread.sleep(3000); // Pause execution for 3000 milliseconds (not recommended; use explicit waits instead)
-        driver.findElement(passwordLogin).sendKeys("123456?"); // Find password field and enter password
+        driver.findElement(passwordLogin).sendKeys("090908?"); // Find password field and enter password
         driver.findElement(signInBtn).click(); // Click on sign-in button
 
         boolean homepageview = driver.findElement(assertionUponLogin).isDisplayed(); // Check if assertion element is displayed

@@ -1,11 +1,13 @@
 package Base;
-
+//Below are necessary for Selenium WebDriver operations.
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.concurrent.TimeUnit;
+//Below are TestNg annotations.
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import java.util.concurrent.TimeUnit;
+
 public class BaseClass {
     public WebDriver driver;
 
